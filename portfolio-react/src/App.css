@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background: #1a1a1a;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00c6ff;
+  transform: scale(1.1);
+}
+
+/* SECTIONS */
+section {
+  padding: 90px 20px;
+  border-bottom: 1px solid #1f2937;
+}
+
+/* HEADINGS */
+h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+/* BUTTON */
+button {
+  margin-top: 15px;
+  padding: 12px 25px;
+  border: none;
+  background: #00c6ff;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #00c6ff;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: #00a3cc;
+}
+
+/* PROJECT CARD */
+.card {
+  background: #1f2937;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 400px;
+  border-radius: 12px;
+  transition: 0.3s;
+  text-align: left;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* PROJECT BUTTON LINK */
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #00c6ff;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.card a:hover {
+  background: #00a3cc;
+}
+
+/* TEXT */
+p {
+  font-size: 18px;
+  color: #d1d5db;
+}
