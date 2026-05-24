@@ -29,15 +29,24 @@ export default function App() {
       {/* HOME */}
       <section id="home">
 
-        <img
-         src="/images/myphoto.jpg" alt="myphoto" className="profile"
-          alt="Siddh"
-          className="profile"
-        />
-
        <h1 className="hero-text">Hi I'm Siddh</h1>
         <p>Web Developer & Learner</p>
 
+      <img 
+        src="/download.jpg"
+        alt="profile"
+        style={{
+          width: "220px",
+          height: "220px",
+          borderRadius: "50%",
+          objectFit: "cover",
+          display: "block",
+          margin: "25px auto",
+          border: "5px solid orange",
+          boxShadow: "0 0 20px orange"
+        }}
+        />
+      
         <button onClick={handleClick}>
           Click Me
         </button>
