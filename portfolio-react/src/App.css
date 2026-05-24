@@ -105,3 +105,107 @@ p {
   font-size: 18px;
   color: #d1d5db;
 }
+.projects {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.project-card {
+  background: #1e1e1e;
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 15px;
+  max-width: 500px;
+}
+
+.project-card h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #cccccc;
+  margin-bottom: 15px;
+}
+
+.project-card a {
+  background: #ff9800;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.hero-text {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+   opacity: 0;
+   transform: translateY(-30x);
+  }
+
+  to {
+   opacity: 1;
+   transform: translateY(0);
+  }
+}
+.resume-btn {
+  background: orange;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.resume-btn:hover {
+  background: darkorange;
+}
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  background: orange;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+}
+.dark {
+  background: #111;
+  color: white;
+  min-height: 100vh;
+}
+
+.light {
+  background: white;
+  color: black;
+  min-height: 100vh;
+}
+
+.toggle-btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+}
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  margin: 10px;
+  text-decoration: none;
+  background: orange;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+}
