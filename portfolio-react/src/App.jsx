@@ -33,7 +33,7 @@ export default function App() {
         <p>Web Developer & Learner</p>
 
       <img 
-        src="/images/download.jpg"
+        src="/download.jpg"
         alt="profile"
         style={{
           width: "220px",
